@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USERS INFO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./hw.css" />
+  </head>
+  <body>
+    <section id="users"></section>
+    <section id="tabs" class="hidden">
+      <div class="wrapper">
+        <div
+          id="tab1"
+          class="tab"
+          data-url="https://jsonplaceholder.typicode.com/users"
+        >
+          <h4>Info</h4>
+        </div>
+        <div
+          id="tab2"
+          class="tab"
+          data-url="https://jsonplaceholder.typicode.com/todos"
+        >
+          <h4>ToDo</h4>
+        </div>
+        <div
+          id="tab3"
+          class="tab"
+          data-url="https://jsonplaceholder.typicode.com/posts"
+        >
+          <h4>Posts</h4>
+        </div>
+        <div
+          id="tab4"
+          class="tab"
+          data-url="https://jsonplaceholder.typicode.com/albums"
+        >
+          <h4>Albums</h4>
+        </div>
+      </div>
+      <div id="content"></div>
+    </section>
+    <footer>All Rigts are not reserved (066)</footer>
+    <script src="./hw.js"></script>
+  </body>
+</html>
